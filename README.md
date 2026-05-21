@@ -186,3 +186,22 @@ bash start.sh stop ubuntu
 bash start.sh stop win11
 ```
 
+## 常见问题
+### 远程控制延迟太高
+默认codespaces的VNC是卡的。可以在系统里装一个远程控制软件，比如Todesk、向日葵等，速度就很快了。
+
+### 远程怎么访问
+把URL从private改为public：
+
+<img width="1080" height="434" alt="image" src="https://github.com/user-attachments/assets/f96a9008-dd7f-4874-954f-bcbb4dd6caf9" />
+
+### 一小时就自动删了
+没有活动下会被删，可以跑点任务，并把auto-delete关了：
+
+<img width="1080" height="491" alt="image" src="https://github.com/user-attachments/assets/88001754-7bc5-4b43-b854-e3b2a02ee033" />
+
+
+
+
+
+
